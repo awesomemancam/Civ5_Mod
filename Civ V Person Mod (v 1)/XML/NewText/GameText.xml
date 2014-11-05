@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_ROUNDROCK">
+			<Text>Round Rock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LOCALHOST">
+			<Text>localhost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HELL">
+			<Text>Hell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HACKCENTRAL_ADJECTIVE">
+			<Text>HackCentric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HACKCENTRAL_DESC">
+			<Text>HackCentric Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_HACKCENTRAL_SHORT_DESC">
+			<Text>HackCentral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HACKCENTRAL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HACKCENTRAL_TEXT_1">
+			<Text>
+				Founded in 1997.  Been hacking ever since.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AWESOMEMANCAM_LIVED">
+			<Text>25 - 62 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AWESOMEMANCAM_NAME">
+			<Text>awesomemancam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AWESOMEMANCAM_SUBTITLE">
+			<Text>Leader of the HackCentrics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AWESOMEMANCAM">
+			<Text>awesomemancam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_BATTLE_FURY">
+			<Text>Melee, Mounted and Gun units can make 2 attacks per round.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_BATTLE_FURY_SHORT">
+			<Text>Battle Fury</Text>
+		</Row>
+
+	</Language_en_US>
+
+</GameData>

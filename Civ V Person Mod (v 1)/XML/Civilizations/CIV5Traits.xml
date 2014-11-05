@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_BATTLE_FURY</Type>
+			<Description>TXT_KEY_TRAIT_BATTLE_FURY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_BATTLE_FURY_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_BATTLE_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SECOND_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_BATTLE_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_SECOND_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_BATTLE_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SECOND_ATTACK</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+  
+</GameData>

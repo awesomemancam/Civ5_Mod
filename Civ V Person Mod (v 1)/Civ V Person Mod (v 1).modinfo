@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d4396c6c-731e-44f4-8f4f-899c0dd50e68" version="1">
+  <Properties>
+    <Name>Civ V Person Mod</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds in a bunch of people as leaders that I know personally.</Teaser>
+    <Description>Adds in a bunch of people as leaders that I know personally.</Description>
+    <Authors>Camden Wagner</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://https://github.com/awesomemancam</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D0E8D74584103E7E67F6F7271FC45283" import="0">Art/awesomemancamDOM.dds</File>
+    <File md5="53F6B554F6295B3D976E89E9E43BADB5" import="0">Art/HackCentral_IconAtlas128.dds</File>
+    <File md5="EC880A49156DB8E74E155E889E7D4192" import="0">Art/HackCentral_IconAtlas256.dds</File>
+    <File md5="A766B13A97CD887818463C285E7D41C7" import="0">Art/HackCentral_IconAtlas32.dds</File>
+    <File md5="0E166955602DB3F8E54FC7C98391540C" import="0">Art/HackCentral_IconAtlas45.dds</File>
+    <File md5="A0E1FC7F6CAF26FE4AD329DF99B14694" import="0">Art/HackCentral_IconAtlas64.dds</File>
+    <File md5="A2076411E899DAA272F581AB61CAAEF0" import="0">Art/HackCentral_IconAtlas80.dds</File>
+    <File md5="A92CECE9E34D90077BF19C0A323D3AB5" import="0">XML/Civilizations/CIV5Traits.xml</File>
+    <File md5="1B68AB0AA8A31296D8E9CD3E25A4A273" import="0">XML/Civilizations/Civ_HackCentral.xml</File>
+    <File md5="512F61F013D6EABA8FD299F8EDC5648F" import="0">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="D1B897800A33879C6D22131848959A02" import="0">XML/Leaders/CIV5Leader_awesomemancam.xml</File>
+    <File md5="A7F526DA0BFF627F79CC1C86E04D9060" import="0">XML/NewText/GameText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/Civ_HackCentral.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_awesomemancam.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/CIV5Traits.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

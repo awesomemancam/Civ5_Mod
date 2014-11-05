@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_HACKCENTRAL</Type>
+			<Description>TXT_KEY_CIV_HACKCENTRAL_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_HACKCENTRAL_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_HACKCENTRAL_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_CIV_HACKCENTRAL_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_HACKCENTRAL</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGENDS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapEngland512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_HACKCENTRAL_TEXT_1</DawnOfManQuote>
+			<DawnOfManImage>awesomemancamDOM.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROUNDROCK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LOCALHOST</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_HELL</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<LeaderheadType>LEADER_AWESOMEMANCAM</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_HACKCENTRAL</CivilizationType>
+			<RegionType>REGION_GRASSLAND</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+  
+</GameData>
